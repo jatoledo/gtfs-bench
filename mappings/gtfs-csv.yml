@@ -116,7 +116,7 @@ mappings:
       - [gtfs:timeZone,$(agency_timezone)]
       - [dct:language,$(agency_lang)]
       - [foaf:phone,$(agency_phone)]
-      - [gtfs:fareUrl,$(agency_fare_url)~iri]
+      - [gtfs:fareUrl,$(agency_fare_url)]
   stops:
     sources:
       - [/data/STOPS.csv~csv]
